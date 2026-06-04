@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar PV Yield Calculator - Static Deployment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 { color: #0056b3; }
+        p { line-height: 1.6; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover { background: #003d82; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>☀️ Solar PV Yield Calculator</h1>
+    <p>This is a static deployment of the Solar PV Yield Calculator project.</p>
+    <p>The core application is built with <strong>Python</strong>, <strong>Streamlit</strong>, and <strong>pvlib</strong>, designed to estimate solar photovoltaic energy yield using PVGIS TMY weather data.</p>
+    <p>Because it is a Streamlit application, the interactive backend cannot run on a static file host (Netlify), but you can find the source code, reports, and documentation below.</p>
+    
+    <a href="README.md" class="btn">View README</a>
+    <a href="solar_pv_report.pdf" class="btn">View Sample Report</a>
+</div>
+
+</body>
+</html>
