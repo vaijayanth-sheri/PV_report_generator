@@ -1,3 +1,13 @@
+---
+title: Solar PV Yield Calculator
+emoji: ☀️
+colorFrom: yellow
+colorTo: orange
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # ☀️ Solar PV Yield Calculator
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
