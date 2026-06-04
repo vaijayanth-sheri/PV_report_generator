@@ -20,5 +20,5 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           # Replace YOUR_HF_USERNAME and YOUR_SPACE_NAME below
-          git remote add space https://huggingface.co/spaces/Vaijayanth-sheri/PV-Yield-Report-Generator
+          git remote add space https://Vaijayanth-sheri:$HF_TOKEN@huggingface.co/spaces/Vaijayanth-sheri/PV-Yield-Report-Generator
           git push --force space main
